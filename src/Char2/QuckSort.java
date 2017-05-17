@@ -11,13 +11,13 @@ public class QuckSort {
 
         while (true) {
             //边界条件  注意 传入的hi值
-            while (Example.less(a[++i], v)) {
+            while (Sort.less(a[++i], v)) {
                 if (i == hi) {
                     break;
                 }
             }
 
-            while (Example.less(v, a[--j])) {
+            while (Sort.less(v, a[--j])) {
                 if (j == lo) {
                     break;
                 }
@@ -27,9 +27,9 @@ public class QuckSort {
                 break;
             }
 
-            Example.exch(a, i, j);
+            Sort.exch(a, i, j);
         }
-        Example.exch(a, lo, j);
+        Sort.exch(a, lo, j);
         return j;
     }
 

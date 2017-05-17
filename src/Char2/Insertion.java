@@ -3,7 +3,7 @@ package Char2;
 /**
  * Created by finch on 2017/5/13.
  */
-public class Insertion extends Example {
+public class Insertion extends Sort {
 
     @Override
     public void sort(Comparable[] a) {

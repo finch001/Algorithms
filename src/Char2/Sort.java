@@ -3,7 +3,7 @@ package Char2;
 /**
  * Created by finch on 2016/11/7.
  */
-public abstract class Example {
+public abstract class Sort {
 
     public abstract void sort(Comparable[] a);
 
@@ -28,7 +28,7 @@ public abstract class Example {
     }
 
     protected static boolean isSorted(Comparable[] a) {
-        for (int i = 0; i < a.length; i++) {
+        for (int i = 1; i < a.length; i++) {
             if (less(a[i], a[i - 1])) {
                 return false;
             }

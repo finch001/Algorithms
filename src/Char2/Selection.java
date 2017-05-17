@@ -3,7 +3,7 @@ package Char2;
 /**
  * Created by finch on 2016/11/7.
  */
-public class Selection extends Example {
+public class Selection extends Sort {
     @Override
     public void sort(Comparable[] a) {
         for (int i = 0; i < a.length; i++) {
